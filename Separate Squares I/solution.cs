@@ -6,7 +6,7 @@ public class Solution {
 
         foreach(var s in squares)
         {
-            total += (double) s[2] *s[2];
+            total += (double)s[2] * s[2];
             low = Math.Min(low, s[1]);
             high = Math.Max(high, s[1] + s[2]);
         }
@@ -35,4 +35,5 @@ public class Solution {
         }
         return low;
     }
+
 }
